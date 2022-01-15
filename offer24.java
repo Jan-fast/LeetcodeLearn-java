@@ -14,7 +14,7 @@ class ListNode {
     ListNode next;
     ListNode(int x) { val = x; }
 }
-class Solution {
+class Solution24 {
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) return head;
         

@@ -8,12 +8,7 @@ import java.util.Vector;
  *     ListNode(int x) { val = x; }
  * }
  */
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
-class Solution {
+class Solution6 {
     public int[] reversePrint(ListNode head) {
         Vector<Integer> arr = new Vector<>();
         while (head != null) {
