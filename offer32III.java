@@ -8,7 +8,7 @@ public class offer32III {
     }
 }
 
-class printBinTree {
+class printBinTree3 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new LinkedList<>();
         Deque<TreeNode> queue = new LinkedList<>();

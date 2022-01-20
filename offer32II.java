@@ -9,7 +9,7 @@ public class offer32II {
     }
 }
 
-class printBinTree {
+class printBinTree2 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         Deque<TreeNode> queue = new LinkedList<>();
