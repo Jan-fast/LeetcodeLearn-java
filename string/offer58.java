@@ -1,3 +1,4 @@
+package string;
 public class offer58 {
     public static void main(String[] args) {
         String s = "abcdefg";

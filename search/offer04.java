@@ -1,3 +1,4 @@
+package search;
 public class offer04 {
     public static void main(String[] args) {
          

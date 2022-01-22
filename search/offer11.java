@@ -1,3 +1,4 @@
+package search;
 public class offer11 {
     public static void main(String[] args) {
         int[] numbers = {1,3,3};

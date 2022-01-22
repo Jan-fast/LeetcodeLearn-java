@@ -1,3 +1,4 @@
+package string;
 public class offer5 {
     public static void main(String[] args) {
         // Solution solu = new Solution();

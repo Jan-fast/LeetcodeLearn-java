@@ -1,3 +1,4 @@
+package DP;
 public class offer10II {
     public static void main(String[] args) {
         numWaysDP numways = new numWaysDP();

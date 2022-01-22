@@ -1,3 +1,4 @@
+package DP;
 public class offer47 {
     public static void main(String[] args) {
         int[][] grid = {{1,2,5}, {3,2,1}};
