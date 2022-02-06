@@ -1,3 +1,4 @@
+package mathmatical;
 public class offer62 {
     public static void main(String[] args) {
         
