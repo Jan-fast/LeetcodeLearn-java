@@ -17,7 +17,7 @@ public class offer12 {
         return false;
     }
 
-    public boolean findRoad(char[][]board, String word, int pos, int X, int Y) {
+    private boolean findRoad(char[][]board, String word, int pos, int X, int Y) {
         if (word.charAt(pos) != board[X][Y]) return false;
         if (pos == word.length() - 1) return true;
         char c = board[X][Y];
