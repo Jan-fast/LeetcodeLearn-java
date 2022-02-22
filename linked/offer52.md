@@ -1,9 +1,9 @@
 # LeetCode Offer 52.
 ## Question:  
 **Input two linkedlists, find their first common node.**  
-![alt example](offer52.png)
+![alt example](img/offer52.png)
 ***Example1:***  
-![alt example1](offer52_example_1.png)
+![alt example1](img/offer52_example_1.png)
 - `Input:` listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], intersectVal = 8
 - `Output:` Reference of the node with value = 8  
 ## Solution:
@@ -45,7 +45,7 @@
 2. **Method 2:**  
     Be the first common node be `Node`, the number of nodes in linked list A is `a`, linked list B is `b`.  
     The number between `headA` and `Node` is $a-c$, between `headB` and `Node` is $b-c$.
-    ![alt method2](offer52_method2.png)  
+    ![alt method2](img/offer52_method2.png)  
     Build two pointer `A` and `B` point to `headA` and `headB`, do the following:  
     - pointer `A` traverse `linked list A` and then start traverse `linked list B`.When traversing to `Node`, the total number of steps taken is $$a+(b-c)$$
     - pointer `B` traverse `linked list B` and then start traverse `linked list A`.When traversing to `Node`, the total number of steps taken is $$b+(a-c)$$
