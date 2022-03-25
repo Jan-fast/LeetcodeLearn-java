@@ -43,15 +43,14 @@ public class Q98 {
 
     public boolean isValidBST2(TreeNode root) {
         LinkedList<TreeNode> stack = new LinkedList<>();
-        int inorder = Integer.MIN_VALUE;
-        boolean first = true;
+        double inorder = Double.MIN_VALUE;
         while (!stack.isEmpty() || root != null) {
             while (root != null) {
                 stack.push(root);
                 root = root.left;
             }
             root = stack.pop();
-            if (first) inorder = root.val;
+            inorder = root.val;
             if (root.val <= inorder) return false;
             inorder = root.val;
             root = root.right;
